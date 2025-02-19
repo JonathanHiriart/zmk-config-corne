@@ -14,34 +14,31 @@
 
                 default_layer {
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U  &kp I &kp O &kp P &kp BSPC
-   &kp LSHFT &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
-   &kp LCTRL &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp ESC
-   &kp LGUI &mo 1 &kp SPACE &kp RET &mo 2 &kp RALT
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
+   &kp LSHFT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+   &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
                 };
-                
                 lower_layer {
                         bindings = <
-   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DEL
-   &kp TAB &kp RALT &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-   &kp LCTRL &kp STAR &kp PLUS &kp MINUS &kp UNDER &kp BSLH &trans &trans &trans &trans &trans &trans
-   &kp LGUI &trans &kp SPACE &kp RET &trans &kp RALT
+   &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9  &kp N0 &kp DEL
+   &kp TAB    &kp RALT     &kp F1       &kp F2       &kp F3       &kp F4         &kp F5   &kp F6   &kp F7 &kp F8  &kp F9 &kp F10
+   &kp LCTRL  &kp STAR     &kp PLUS     &kp MINUS    &kp UNDER    &kp BSLH       &trans   &trans   &trans &trans  &trans &trans
+                                    &kp LGUI     &trans       &kp SPACE          &kp RET  &trans   &kp RALT
                         >;
                 };
 
                 raise_layer {
                         bindings = <
-   &kp EXCL &kp DQT &kp HASH &kp DLLR &kp PRCNT &kp AMPS &kp LPAR &kp RPAR &kp EQUAL 
-   &u 00BF &kp QMARK &kp BSPC
-   &u 00A1 &kp PIPE &u 00B0 &kp CARET &kp GRAVE &kp PAGE_UP &kp LBKT &kp RBKT &kp SQT
-   &kp HOME &kp UP &kp END
-   &kp LCTRL &kp LT &kp GT &kp TILDE &kp AT &kp PAGE_DOWN &kp LBRC &kp RBRC &kp BSLH
-   &kp LEFT &kp DOWN &kp RIGHT
-   &kp LGUI &trans &kp SPACE &kp RET &trans &kp RALT
+   &kp EXCL  &kp DQT &kp HASH &kp DLLR &kp PRCNT &kp AMPS
+   &kp LPAR &kp RPAR  &kp EQUAL &kp U00BF &kp QMARK &kp BSPC
+   &kp U00A1 &kp PIPE &kp U00B0 &kp CARET &kp GRAVE &kp PAGE_UP
+   &kp LBKT &kp RBKT &kp SQT  &kp HOME &kp UP &kp END
+   &kp LCTRL &kp LT &kp GT &kp TILDE &kp AT &kp PAGE_DOWN
+   &kp LBRC &kp RBRC  &kp BSLH  &kp LEFT &kp DOWN &kp RIGHT
+   &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
         };
 };
-
- 
