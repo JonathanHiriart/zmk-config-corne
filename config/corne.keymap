@@ -65,8 +65,8 @@
 //
 
                         bindings = <
-   &kp EXCL  &kp DQT &kp HASH &kp DLLR &kp PRCNT &kp AMPS        &kp LPAR &kp RPAR  &kp EQUAL &u 00BF &kp QMARK &kp BSPC
-   &u 00A1 &kp PIPE &u 00B0 &kp CARET &kp GRAVE &kp PAGE_UP      &kp LBKT &kp RBKT &kp SQT  &kp HOME &kp UP &kp END
+   &kp EXCL  &kp DQT &kp HASH &kp DLLR &kp PRCNT &kp AMPS        &kp LPAR &kp RPAR  &kp EQUAL &trans &kp QMARK &kp BSPC
+   &u 00A1 &kp PIPE &trans &kp CARET &kp GRAVE &kp PAGE_UP      &kp LBKT &kp RBKT &kp SQT  &kp HOME &kp UP &kp END
    &kp LCTRL &kp LT &kp GT &kp TILDE &kp AT &kp PAGE_DOWN         &kp LBRC &kp RBRC  &kp BSLH  &kp LEFT &kp DOWN &kp RIGHT
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
