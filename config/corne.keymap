@@ -30,7 +30,7 @@
                 };
 
                 raise_layer {
-                        bindings = <
+        bindings = <
    &kp EXCL  &kp DQT &kp HASH &kp DLLR &kp PRCNT &kp AMPS
    &kp LPAR &kp RPAR  &kp EQUAL &kp U00BF &kp QMARK &kp BSPC
    &kp U00A1 &kp PIPE &kp U00B0 &kp CARET &kp GRAVE &kp PAGE_UP
@@ -39,6 +39,7 @@
    &kp LBRC &kp RBRC  &kp BSLH  &kp LEFT &kp DOWN &kp RIGHT
    &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
-                };
+};
+
         };
 };
